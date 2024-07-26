@@ -1,25 +1,70 @@
 body {
     background-color: black;
+    font-family: Cormorant Infant;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: white;
+    padding: 20px;
 }
 
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+}
+
+.inventory-label {
+    font-weight: bold;
+    margin-right: 20px;
+    font-size: 2rem;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.date-field {
+    margin-right: 20px;
+}
+
+.company-name {
+    font-weight: bold;
+}
+
+.form-section {
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 118.782px;
+    height: 36.26px;
+}
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-.check {
-    cursor: pointer;
-}
-.label {
-    font-size: 1.5rem;
-    color: hsl(175, 100%, 56%);
-    cursor: pointer;
-    display: inline;
 }
 
-.label:hover {
-    box-shadow: 2px 2px 5px rgba(11, 218, 255, 0.562);
+.checkbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+.checkbox:checked {
+    background-color: #000;
+}
+.checkbox-label {
+    display: inline-block;
+    margin-right: 10px;
 }
