@@ -39,7 +39,7 @@ header {
     margin-top: 20px;
 }
 
-input {
+.input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -67,4 +67,12 @@ input {
 .checkbox-label {
     display: inline-block;
     margin-right: 10px;
+}
+#submitBtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
